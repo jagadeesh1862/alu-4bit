@@ -1,0 +1,37 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Fri May 16 12:27:35 2025
+[*]
+[dumpfile] "C:\Users\G Jagadeesh\alu_4bit_project\alu_4bit_tb.vcd"
+[dumpfile_mtime] "Fri May 16 09:09:41 2025"
+[dumpfile_size] 1370
+[savefile] "C:\Users\G Jagadeesh\alu_4bit_project\waveforms.gtkw"
+[timestart] 0
+[size] 1536 793
+[pos] -1 -1
+*-14.062452 250 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] alu_4bit_tb.
+[sst_width] 197
+[signals_width] 118
+[sst_expanded] 1
+[sst_vpaned_height] 221
+@22
+alu_4bit_tb.A[3:0]
+alu_4bit_tb.B[3:0]
+@28
+alu_4bit_tb.cout
+alu_4bit_tb.op[2:0]
+@22
+alu_4bit_tb.result[3:0]
+alu_4bit_tb.uut.A[3:0]
+alu_4bit_tb.uut.B[3:0]
+@28
+alu_4bit_tb.uut.cout
+alu_4bit_tb.uut.op[2:0]
+@22
+alu_4bit_tb.uut.result[3:0]
+@28
+alu_4bit_tb.uut.zero
+alu_4bit_tb.zero
+[pattern_trace] 1
+[pattern_trace] 0

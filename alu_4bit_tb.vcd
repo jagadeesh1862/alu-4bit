@@ -1,0 +1,158 @@
+$date
+   Fri May 16 14:39:41 2025
+$end
+
+$version
+  2023.2
+  $dumpfile ("alu_4bit_tb.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module alu_4bit_tb $end
+$var reg 4 ! A [3:0] $end
+$var reg 4 " B [3:0] $end
+$var reg 3 # op [2:0] $end
+$var wire 4 $ result [3:0] $end
+$var wire 1 % cout $end
+$var wire 1 & zero $end
+$scope module uut $end
+$var wire 4 ' A [3:0] $end
+$var wire 4 ( B [3:0] $end
+$var wire 3 ) op [2:0] $end
+$var reg 4 * result [3:0] $end
+$var reg 1 + cout $end
+$var reg 1 , zero $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+b0 !
+b0 "
+b0 #
+b0 $
+0%
+1&
+b0 '
+b0 (
+b0 )
+b0 *
+0+
+1,
+$end
+
+#10000
+b11 !
+b101 "
+b1000 $
+0&
+b11 '
+b101 (
+b1000 *
+0,
+
+#20000
+b1111 !
+b1 "
+b0 $
+1%
+1&
+b1111 '
+b1 (
+b0 *
+1+
+1,
+
+#40000
+b101 !
+b11 "
+b1 #
+b10 $
+0%
+0&
+b101 '
+b11 (
+b1 )
+b10 *
+0+
+0,
+
+#50000
+b0 !
+b0 "
+b0 $
+1&
+b0 '
+b0 (
+b0 *
+1,
+
+#70000
+b1100 !
+b1010 "
+b10 #
+b1000 $
+0&
+b1100 '
+b1010 (
+b10 )
+b1000 *
+0,
+
+#80000
+b0 !
+b1111 "
+b0 $
+1&
+b0 '
+b1111 (
+b0 *
+1,
+
+#100000
+b1100 !
+b1010 "
+b11 #
+b1110 $
+0&
+b1100 '
+b1010 (
+b11 )
+b1110 *
+0,
+
+#110000
+b0 !
+b0 "
+b0 $
+1&
+b0 '
+b0 (
+b0 *
+1,
+
+#130000
+b1100 !
+b1010 "
+b100 #
+b110 $
+0&
+b1100 '
+b1010 (
+b100 )
+b110 *
+0,
+
+#140000
+b1111 !
+b1111 "
+b0 $
+1&
+b1111 '
+b1111 (
+b0 *
+1,
